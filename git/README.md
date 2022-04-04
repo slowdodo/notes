@@ -91,8 +91,6 @@ git command
 | git log -n | git log -3 | n개만큼의 항목만 보이도록 해줌|
 
 
-
-
 > config 관련 알면 좋은 명령어들 리스트
 
 | 커멘드|사용법|
@@ -108,4 +106,12 @@ git command
 |user.name| 사용자 이름 변경|
 |user.email| 사용자 이메일 변경|
 |color.ui|git의 출력결과 색상 활성화(보통 auto 설정)|
+
+
+> repository 폴더 및 파일 삭제 명령어
+
+| 명령어 | 예시 | 설명 |
+| --- | --- | --- |
+|git rm (file) | git rm README.md |원격 저장소와 로컬 저장소에 파일 삭제 |
+|git rm --cached (file) | git rm --cached README.md | 원격저장소의 파일 삭제 |
 
