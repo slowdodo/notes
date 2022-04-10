@@ -79,7 +79,7 @@ git command
 | --- | --- | --- |
 | git clone -b (branch) --single-branch (url) | git clone -b next --single-branch [https://github.com/git/git.git](https://github.com/git/git) |  특정 브랜치의를 가져오고 다른 브랜치   history은 안가져옴 |
 | git clone -b (branch) (url) | git clone -b next  [https://github.com/git/git.git](https://github.com/git/git.git) | 위와 비슷하지만 차이점은   branch의 history도 가져옴 |
-
+| git clone --depth n | git clone --depth 1 | 원격 저장소로부터 가장 마즈막 커밋만 가져옴 |
 
 
 > log 관련 알면 좋은 명령어들 
