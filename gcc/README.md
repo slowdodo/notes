@@ -1,6 +1,6 @@
 ## GCC LANG tips
 ------------------------
-GCC(GNU Compiler Collection)
+**GCC(GNU Compiler Collection)**
 
 
 >화면 출력
@@ -11,6 +11,7 @@ GCC(GNU Compiler Collection)
 | gcc -g | 바이너리 파일에 표준 디버깅 정보를 포함시킴 | gcc -g test.c | a.out |
 | gcc -v | 컴파일 과정의 명령어와 gcc 버전 정보 표시 | gcc -v test.c | a.out (+화면출력도 함) |
 | gcc -E | 전처리 과정 화면에 출력함 | gcc -E test.c | (화면에 출력) |
+
 
 > 에러 옵션  
 
@@ -29,7 +30,7 @@ GCC(GNU Compiler Collection)
 | gcc -C | 링킹 과정없이 컴파일된 코드 출력 | gcc -C test.c | a.out |
 | gcc -c | 오브젝트(기계어) 파일로 저장 | gcc -c test.c | test.o |
 | gcc  | 그냥 출력하기 | gcc test.c | test.out |
-| gacc -save-temps  | 컴파일과정중 생기는 파일을 지우지않음 | gcc -save-temps test.c | test.c ->    a.out, test.c   test.i, test.o   test.s |
+| gcc -save-temps  | 컴파일과정중 생기는 파일을 지우지않음 | gcc -save-temps test.c | test.c ->    a.out, test.c   test.i, test.o   test.s |
 
 > 참고하면 좋은 확장자
 
