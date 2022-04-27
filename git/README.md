@@ -81,7 +81,7 @@ git command
 | git checkout (branch) (file or dir) | git checkout main test/hello.txt | 다른 브랜치의 파일을 가져오는 명령어 |
 | git diff --staged  | git diff --staged | 현재와 이전에 add 를 비교 |
 
-> git clone comnad
+> git clone command
 
 | 명령어 | 예시 | 설명 |
 | --- | --- | --- |
