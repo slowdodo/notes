@@ -1,6 +1,5 @@
 # OSI 7 Layer
 ----
-![osi7](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuxFXq%2FbtroQcqq7FI%2FizudVlicbfS8aCHFswuUxk%2Fimg.png)
 | 계층 | 특징 | 통신 데이터 단위 | 프로토콜 | 장비  |
 | --- | --- | --- | --- | --- |
 | Application Layer   응용 계층   (L7) | \-응용 소프트웨어를 도와주는 계층      \-파일 전송, DB, 메일 전송 등 을 네트워크에 연결해주는 역할       | Message | HTTP   FTP   DNS   SMTP   등 | X |
@@ -10,3 +9,6 @@
 | Network Layer   네트워크 계층   (L3) | \-IP계층과 IP 프로토콜로 인터넷이 가능하게 한다      \-경로와 주소를 정하고 경로에 따라 패킷을 전달한다.      \-하위계층과 상위계층을 잇는 역할을 해준다. | Paket | IP   ARP   RARP   ICMP   IGMP   IPSec   RIP   등 | 라우터 |
 | DataLink Layer   데이터 링크 계층   (L2) | \- Mac Address로 통신한다.   \-  물리 계층을 통해 전달되는 통신 오류를 검출하고 재전송한다.   \- 흐름을 제어한다.   \- 데이터링크 연결을 활성, 비활성, 유지 절차를 담당 | Frame | PPP   FDDI   SLIP   Ethernet   등 | 브릿지/   스위치 |
 | Physical Layer   물리 계층   (L1) | \- 통신 케이블로 데이터를 전송한다.   \- 0 과 1 즉 비트로 나타내어진다.   \- 에러 검출을 하지않고 데이터만을 전달한다.   \- 통신을 활성화, 유지, 비활성화를 담당 | Bit | Wireless   Fiber   Coax   등 | 허브   리피터   통신 케이블 |
+
+
+# tcp layer
