@@ -1,4 +1,14 @@
-# tcp bounce
+# TCP Open Scan
+![TCP_open_scan](https://t1.daumcdn.net/cfile/tistory/2724DB4E59059E121C)
+
+# TCP Half Open Scan
+![TCP_Half_Open_scan](https://t1.daumcdn.net/cfile/tistory/234D3B375905A5B22C)
+
+# FIN, NULL, XMAS Scan
+![FIN,NULL,XMAS_scan](https://t1.daumcdn.net/cfile/tistory/216FAB4B5905A6021C)
+
+
+# Port scan type
 
 |종류|설명|
 |---|---|
