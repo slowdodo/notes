@@ -29,7 +29,7 @@
 
 # 보안노트(security_note)
 
-** 공격(Attack) **
+ 공격(Attack)
 
 * [attack_principle](./security_note/attack/)
     * [attack.md](./security_note/attack.md)
@@ -37,12 +37,12 @@
     * [virus.md](./security_note/virus.md)
     * [hijacking.md](./security_note/haijacking.md)
 
-** 회사(coperation) **
+회사(coperation)
 
 * [coperation](./security_note/coperation/)
     * [coperation](./security_note/coperation/coperation.md)
 
-** 암호학(encryption) **
+암호학(encryption)
 
 * [encryption](./security_note/encrypttion/)
     * [encryption_.md](./security_note/encrypttion/encryption_.md)
@@ -51,20 +51,20 @@
     * [symmetric_key.md](./security_note/encrypttion/symmetric_key.md)
     * [unsymmetric_key.md](./security_note/encrypttion/un_symetry_key.md)
 
-** 방화벽(firewall) **
+방화벽(firewall)
 
 * [firewall](./security_note/firewall/)
     * [firewall_sorts.md](./security_note/firewall/firewall.md)
     * [L3mod.md](./security_note/firewall/L3mod.md)
     * [TPmod.md](./security_note/firewall/TPmod.md)
 
-** 해킹(hacking) **
+해킹(hacking)
 
 * [hacking](./security_note/hacking/)
     * [bruteforce_attack.md](./security_note/hacking/brute_force/brute_force.md)
     * [session_hijacking.md](./security_note/hacking/session_hijacking/session_hijacking.md)
 
-** 보안 기본 **
+보안 기본
 
 * [security_basic](./security_note/security_basic/)
     * [bound.md](./security_note/security_basic/bound.md)
