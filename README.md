@@ -29,6 +29,9 @@
 
 # 보안노트(security_note)
 
+    분류기준은 통상적으로 보안관련 분야라 들만한 것들을 모와다 놓음
+    http 프로토콜의 구조 이런건 일반항목에 놓고
+
  공격(Attack)
 
 * [attack_principle](./security_note/attack/)
