@@ -111,3 +111,7 @@ tcpdump -w tcpdump.log
 ```bash
 tcpdump -r tcpdump.log 
 ```
+
+# 여담 
+
+    윈도우는 windump라고 tcpdump 대용으로 있다.
