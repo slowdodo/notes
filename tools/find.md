@@ -28,3 +28,15 @@
 * mtime : n일 이내에 수정된 파일을 찾음.
 * cnewer file : 해당 파일보다 최근에 수정된 파일을 찾음.
 * find 명령어는 다른 명령어와는 달리 옵션은 거의 사용되지 않고 이
+
+
+# 예제
+
+tshark라는 *파일*을 현재 디렉토리에서 부터 찾기
+```bash
+find . -name "tshark" -type f
+```
+os라는 *디렉토리*를 현재 디렉토리에서부터 찾기
+```bash
+find . -name "os" -type d
+```
