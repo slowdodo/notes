@@ -4,7 +4,7 @@
     아래 궁금한 내용들을 링크를 통하여 들어가서 읽어보면 됩니다.
 # Git_note
 
-	[book](https://dogpu.gitbook.io/notes/)
+[book](https://dogpu.gitbook.io/notes/)
 
 
 # 알고리즘(algorithmes)
