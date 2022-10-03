@@ -4,7 +4,7 @@
 
 * 스위치는 개별 컴퓨터 또는 다른 허브 및 스위치를 연결하는 다중 포트(Multiport)장비이다.
 * 한 포트에 연결된 장치는 다른 포트에 연결된 장치와 고유한 가상사설 링크를 통하여 통신함
-* 특정 포트를 모니터링 하고자 하면 모니터링 포트(Monitoring Port)
+* 특정 포트를 모니터링 하고자 하면 [모니터링 포트(Monitoring Port)](#mornitoring-port--spanswitch-port-analyzer)
 <br/> 네트워크 트래픽을 모니터링 할 수 있는 탭(TAP)장비를 통하여 패킷을 복제(Mirroring)해서 트래픽 분석 장비로 전달한다.
 
 
