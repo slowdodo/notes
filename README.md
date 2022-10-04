@@ -6,7 +6,7 @@
 `아직 링크는 수정안함, 너무 바빠서 나중에 수정예정`
 # Git_note
 
-[book](https://dogpu.gitbook.io/notes/)
+[book](https://OneDriveDelete.gitbook.io/notes/)
 
 
 
