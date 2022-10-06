@@ -8,7 +8,7 @@
 
 # VPN 종류 
 
-![vpn_osi](../img/vpn.png)
+![vpn_osi](./img/vpn.png)
 
 * VPN 기술 중 SSL 프로토콜은 응용계층과 전송계층 사이에 위치
 * VPN 기술 중 IPSec 프로토콜은 네트워크 계층의 보안성을 제공해주는 표준화된 프로토콜이다.
@@ -17,7 +17,7 @@
 
 # VPN 특징
 
-![vpn](../img/vpn1.png)
+![vpn](./img/vpn1.png)
 
 ## 보안
 * VPN은 방화벽, 침입 탐지 시스템(IDS)과 함께 현재 사용되는 가장 일반적인 보안 솔루션 중 하나
