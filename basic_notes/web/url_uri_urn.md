@@ -9,6 +9,7 @@
 
 # URL (Uniformed Resource Locator)
 
+* 위치지정자
 * 프로토콜 포함
 * 해당 자원의 위치, Path를 의미
 * 일반적으로 사이트 도메인을 자주 의미함.
