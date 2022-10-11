@@ -7,3 +7,11 @@
 [SecurityNotes_SSH.md](../../security_note/tool_principle/SSH.md)
 
 # 접속방법
+
+```
+ssh kali@192.168.35.33
+```
+
+```
+ssh -o TCPKeepAlive=yes -o ServerAliveCountMax=20 -o ServerAliveInterval=15 kali@192.168.35.95
+```
