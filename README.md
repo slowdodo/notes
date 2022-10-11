@@ -13,3 +13,10 @@
 
 [book](https://OneDriveDelete.gitbook.io/notes/)
 
+### 오늘 추가ㅏ할 내용
+
+Tshark 원리
+IPS 원리
+SSL
+SSO
+
