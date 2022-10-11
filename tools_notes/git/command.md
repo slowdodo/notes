@@ -17,7 +17,7 @@ git command
 | git checkout (branch\_name) | git checkout my\_branch | 특정 브랜치로 이동 |
 
 
->git reset command
+> git reset command
 
 | 명령어 | 예시 | 설명 |
 | --- | --- | --- |
@@ -30,6 +30,12 @@ git command
 | --- | --- | --- |
 | git commit --amend "" | git commit --ament "hello" | git commit -m 으로 잘못입력한 메시지 재 입력 명령어 |
 | git commit -m "(message)" | git commit -m "테스트요~" | add 로 기록한 파일을 pull 가능하게 저장 |
+
+> git rebase command
+
+| 명령어 | 예시 | 설명 |
+| --- | --- | --- |
+| git rebase -i HEAD~n | git commit -i HEAD~3 | commit을 n개 불러온다 옵션을 보고 고르면 된다 |
 
 > git show command
 
