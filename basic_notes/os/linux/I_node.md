@@ -9,5 +9,5 @@
 |     owner		|                                                                                                                                   파일 소유자 UID																																		|
 |  owner group	|                                                                                                                                  파일 소유그룹 GID																																	|
 |   file size	|                                                                                                                                      파일 크기																																		|
-|   MAC Time	| last Modification Time : 파일 내용을 마지막으로 수정한 시간<br>last Access Time : 파일을 마지막으로 접근한 시간<br>last Change Time : 파일의 속성을 마지막으로 변경한 시간. 파일의 속성은 i-node 정보를  의미. 즉, 소유자, 접근권한 등의 속성이 변경되면 last Change Time이 변경됨	|
+|   MAC Time	| `last Modification Time` : 파일 내용을 마지막으로 수정한 시간<br>`last Access Time` : 파일을 마지막으로 접근한 시간<br>`last Change Time` : 파일의 속성을 마지막으로 변경한 시간. 파일의 속성은 i-node 정보를  의미. 즉, 소유자, 접근권한 등의 속성이 변경되면 last Change Time이 변경됨	|
 |  Block index	|                                                                                                                Data Blocks에 저장되어 있는 파일 내용에 대한 색인 정																													|
