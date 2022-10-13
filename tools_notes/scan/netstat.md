@@ -56,6 +56,12 @@ netstat -an
 |TIME-WAIT|연결은 종료됐지만 마즈막 종료 확인 메시지를 재전송할 경우를 감안하여 당분간 소켓정보 유지|
 |CLOSE|완전 연결을 종료한 상태|
 
+# 사용 예시
+
+```cmd
+netstat -ano | findstr 80
+```
+
 # 여담
 
 현재 사용중인 포트 확인할꺼면 걍 아래 커멘드를 쓰는게 좋다
@@ -63,3 +69,4 @@ netstat -an
 ```bash
 nmap localhost
 ```
+

@@ -18,5 +18,4 @@
 Tshark 원리
 IPS 원리
 SSL
-SSO
 
