@@ -1,3 +1,10 @@
+# NIC(Network Interface Controller)
+* 호스트에서 네트워크와의 연결을 담당한 인터페이스 역할을 하는 장치
+    * 통상, LAN 카드를 지칭
+
+* 그 내부에는, RAM,DSP 칩,호스트 버스 인터페이스 등으로 이루어짐
+    * 궁극적으로, 데이터링크계층용 프로토콜을 구현
+
 # LAN card
 ![Lan_Card](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Network_card.jpg/220px-Network_card.jpg)
 # Lan_Card 특징
