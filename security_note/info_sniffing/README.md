@@ -21,5 +21,3 @@
 # 스캐닝 기법
 
 * Sweep, Open Scan, Stealth Scan, Security Scan으로 분류할수 있다.
-* [더보기](./
-  
