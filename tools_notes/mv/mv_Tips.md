@@ -1,5 +1,4 @@
-# mv tips
-
+# 한번에 파일 옮기기
 ``` bash
 mv -t DES file1 file2 file3
 ```
