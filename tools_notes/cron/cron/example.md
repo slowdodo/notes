@@ -33,5 +33,3 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 ```bash
 */5 1,2,3 * * * echo hello world
 ```
-
-
