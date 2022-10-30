@@ -5,6 +5,7 @@
 
 # 기본 명령어
 ```bash
+
 ufw status
 ```
 

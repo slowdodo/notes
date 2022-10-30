@@ -4,6 +4,7 @@
 # 출력 예제
 
 룰 보기
+
 ```bash
 iptables -nL
 ```
@@ -44,7 +45,9 @@ iptables -D INPUT 2
 
 방화벽 설정을 확인할 service 간단하게 실행
 ```bash
-service apache2 start
+sudo apt -y upgrade && \ 
+sudo apt -y install apache2 && \
+sudo service apache2 start
 ```
 
 port 보기
