@@ -1,4 +1,3 @@
-
 # 사회 공학 ( Social Engineering, SET )
 
 기술적인 해킹에 의한 방법이 아닌, 개인적인 인간관계, 업무적 관계 등을 이용한 방법<br/>
@@ -6,7 +5,7 @@
 
 # 스캐닝(scanning)과 풋 프린팅(foot printing)은 다르다 
 
-* 풋 프린팅 ( foot printing) = 정보수집
+* 풋 프린팅 (foot printing) = 정보수집
 
 ### 풋 프린팅 ( Footprinting )공격 대상의 정보를 모으는 방법 
     

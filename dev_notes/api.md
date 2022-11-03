@@ -1,10 +1,11 @@
 # API(Application Programing Interface)
 
-    한 프로그램에서 다른 프로그램으로 데이터를 주고받는 방법
+한 프로그램에서 다른 프로그램으로 데이터를 주고받는 방법
 
 ex) 
+
     내가 메뉴판 음식을 주문함 <- API GET
-    음식이 옴 <- API REQ
+    음식이 옴 <- API Request
     이게 API
 
 ## REST(Representational State Transfer) API

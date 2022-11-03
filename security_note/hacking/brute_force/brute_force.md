@@ -11,9 +11,6 @@
     대표적 bruteforce attack tools 중 하나인 hydra로 함
 
     
-    
-
-    
 ```bash
 hydra -L users.txt -P passwords.txt (ip) http-get-form "/vulnerabilities/brute/index.php:username=^USER^&password=^PASS^&Login=Login:Username and/or password incorrect.:H=Cookie:PHPSESSID=(val); security=low"
 ```
@@ -43,14 +40,20 @@ hydra -L users.txt -P passwords.txt (ip) http-get-form "/vulnerabilities/brute/i
 
 # 여담 0
 
-    근데 어차피 대부분 사이트는 bruteforce 공격이 막혀있기도 하고
-    애초에 대부분 8자리 이상 요구해서 
-    못써먹는긴한데 burpsuite나, 개발자 도구 활용같은 기본적인 기술 익히는데 도움이 됨
-    근데 간혹가다 ssh같은 원격접속에선 bruteforce가 먹히긴 함
+근데 어차피 대부분 사이트는 bruteforce 공격이 막혀있기도 하고
+
+애초에 대부분 8자리 이상 요구해서 
+
+못써먹는긴한데 burpsuite나, 개발자 도구 활용같은 기본적인 기술 익히는데 도움이 됨
+
+근데 간혹가다 ssh같은 원격접속에선 bruteforce가 먹히긴 함
 
 # 여담 1
 
-    참고로 지금 쓰는 공격은 bruteforce라 말하긴 힘듬 
-    단순 예제라서 보기 편하게 password.txt와 id.txt 만든거라
-    정확하겐 사전 대입 공격(Dictionary Attack)임
-    어차피 레인보우테이블이나 사전대입 공격이 주 공격방법이긴 함
+참고로 지금 쓰는 공격은 bruteforce라 말하긴 힘듬 
+
+단순 예제라서 보기 편하게 password.txt와 id.txt 만든거라
+
+정확하겐 사전 대입 공격(Dictionary Attack)임
+
+어차피 레인보우테이블이나 사전대입 공격이 주 공격방법이긴 함
