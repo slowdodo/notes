@@ -1,4 +1,4 @@
-# SSL의 동작방식
+# TLS(Transport Layer Security) 의 동작방식
 
 ![TLS](https://cf-assets.www.cloudflare.com/slt3lc6tev37/5aYOr5erfyNBq20X5djTco/3c859532c91f25d961b2884bf521c1eb/tls-ssl-handshake.png)
 
@@ -8,6 +8,10 @@
 
 * SSL은 또한 데이터 무결성을 제공하기 위해 데이터에 디지털 서명하여 데이터가 의도된 수신자에 도착하기 전에 조작되지 않았다는 것을 확인합니다.
 
+
+간단하게 ssl의 상위의 암호화 프로토콜 체계라 보면되는데 하도 TSL와 SSL을 겹쳐서 사용하기에 보통 우리가 SSL이라 부르면 TSL라 알아들으면 되는데
+
+서비스 할떄는 TSL와 SSL의 사용은 구별해야되긴 한다.
 
 
 출처: [ssl](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-ssl/)

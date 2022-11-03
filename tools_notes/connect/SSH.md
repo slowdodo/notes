@@ -8,10 +8,14 @@
 
 # 접속방법
 
-```
+``` bash
 ssh kali@192.168.35.33
 ```
 
-```
+``` bash
 ssh -o TCPKeepAlive=yes -o ServerAliveCountMax=20 -o ServerAliveInterval=15 kali@192.168.35.95
+```
+
+``` bash
+
 ```
