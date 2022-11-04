@@ -1,0 +1,38 @@
+로그 이름:         Microsoft-Windows-Sysmon/Operational
+원본:            Microsoft-Windows-Sysmon
+날짜:            2022-11-05 오전 12:51:55
+이벤트 ID:        16
+작업 범주:         Sysmon config state changed
+수준:            정보
+키워드:           
+사용자:           DESKTOP-APOLNT8\dbstj
+컴퓨터:           DESKTOP-APOLNT8
+설명:
+Sysmon config state changed:
+UtcTime: 2022-11-04 15:51:55.465
+Configuration: C:\Users\dbstj\Downloads\Sysmon\Sysmon.exe  -i -h md5,imphash -n -accepteula
+ConfigurationFileHash: -
+이벤트 Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>16</EventID>
+    <Version>3</Version>
+    <Level>4</Level>
+    <Task>16</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2022-11-04T15:51:55.4781888Z" />
+    <EventRecordID>37</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1848" ThreadID="1996" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>DESKTOP-APOLNT8</Computer>
+    <Security UserID="S-1-5-21-2834013247-4151244398-409449591-1001" />
+  </System>
+  <EventData>
+    <Data Name="UtcTime">2022-11-04 15:51:55.465</Data>
+    <Data Name="Configuration">C:\Users\dbstj\Downloads\Sysmon\Sysmon.exe  -i -h md5,imphash -n -accepteula</Data>
+    <Data Name="ConfigurationFileHash">-</Data>
+  </EventData>
+</Event>
