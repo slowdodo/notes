@@ -1,56 +1,70 @@
 # iptables
 * 들어오는 포트를 막아주는 `시스템단 방화벽`
 
-# 출력 예제
 
-룰 보기
-
-```bash
-iptables -nL
+``` bash
+iptables [-t table] [action] [chain] [match] [-j target]
 ```
 
-Rule의 번호값 보기
-```bash
-iptables -L --line-numbers
-```
-# Rule_Set
+# table
 
-들어오는 TCP포트 80을 막기
-```bash
-iptables -A INPUT -p tcp --dport 80 -j DROP 
-```
+| table | 설명|
+| --- | --- |
+| filter | iptables의 기본 테이블로 패킷 필터링 담당|
+| nat|  Network Address Translation, IP 주소 변환|
+| mangle| 패킷 데이터를 변경하는 특수 규칙을 적용하는 테이블, 성능향상을 위한 TOS(Type of Service) 설정| 
+| raw |  넷필터의 연결추적 하위시스템과 독립적으로 동작해야 하는 규칙을 설정하는 테이블|
+| security | 리눅스 보안 모듈인 SELinux에 의해 사용되는 MAC(Mandatory Access Control) 네트워크 관련 규칙 적용|
 
-# Rules 저장방법
+# action
 
-```bash
-iptables-save > 20221010.rules
-```
+| action 	| 설명                                                         	|
+|--------	|--------------------------------------------------------------	|
+| -N     	| 새로운 사용자 정의 사슬                                      	|
+| -X     	| 비어있는 사슬 제거, 기본 사슬 제거불가                       	|
+| -P     	| 사슬의 기본 정책 설정 (policy)                               	|
+| -L     	| 현재 사슬의 규칙 나열                                        	|
+| -F     	| 사슬로부터 규칙 전부 제거 (flush)                            	|
+| -Z     	| 사슬내의 모든 규칙들의 패킷과 바이트의 카운트를 0으로 만든다 	|
+| -A     	| 사슬에 새로운 규칙 추가, 맨 마지막 규칙으로 등록됨 (append)  	|
+| -l     	| 사슬에 규칙을 맨 첫 부분에 삽입                              	|
+| -D     	| 사슬의 규칙을 제거                                           	|
 
-# 복원예제
+# chain
 
-```bash
-iptables-restore < 20221010.rules
-```
+| chain   | 설명|
+| ------- | --- |
+| INPUT   | 방화벽을 최종 목적지로 하는 체인 |
+| OUTPUT  | 방화벽을 최초 출발지로 하는 체인 |
+| FORWARD | 방화벽을 통과하는 채널을 의미하는 것으로 방화벽을 별도의 서버로 구성해서 서비스할떄 사용하는 체인 |
 
-# delete
+# math
 
-`iptables -L --line-numbers`으로 확인한 NUMBER RULE 지우기
-```bash
-iptables -D INPUT 2
-```
+| match 	| 설명                                                                                                                                      	|
+|-------	|-------------------------------------------------------------------------------------------------------------------------------------------	|
+| -s    	| 출발지 IP주소나 네트워크와 매칭, 도메인, IP주소, 넷마스크값 이용하여 표시 (명시하지 않으면 any로 판단함)  |
+| -d    	| 목적지 IP주소나 네트워크와 매칭, 도메인, IP주소, 넷마스크값 이용하여 표시  (명시하지 않으면 any로 판단함) |
+| -p    	| 특정 프로토콜과 매칭, TCP, UDP, ICMP 와 같은 이름을 사용하고 대소문자는 구분하지 않음<br>이 옵션 사용하지 않으면 모든 프로토콜이 대상이됨 	|
+| -i    	| 패킷이 들어오는 인터페이스(Inbound Interface)를 지정|
+| -o    	| 패킷이 나가는 인터페이스(Outbound Interface)를 지정|
+
+# iptables -p  
+
+tcp, udp, icmp 지정가능
 
 
+| option  	| 설명                                                       	|
+|---------	|------------------------------------------------------------	|
+| --sport 	| 발신지에서의 하나의 포트 또는 포트범위를 지정              	|
+| --dport 	| 도착지의 포트를 지정하는 것으로 설정 방법은 --sport와 동일 	|
 
-# 테스트
 
-방화벽 설정을 확인할 service 간단하게 실행
-```bash
-sudo apt -y upgrade && \ 
-sudo apt -y install apache2 && \
-sudo service apache2 start
-```
+# -j target 
 
-port 보기
-```bash 
-nmap localhost
-```
+| target 	| 설명                                                                	|
+|--------	|---------------------------------------------------------------------	|
+| ACCEPT 	| 패킷을 허가하는 것으로 본래 라우팅대로 진행                         	|
+| DROP   	| 패킷을 거부하는 것으로 더 이상 어떤 처리도 수행하지 않고 버림       	|
+| LOG    	| 패킷을 syslog에 전달하여 기록, 일반적으로 /var/log/messages 에 저장 	|
+| REJECT 	| 패킷을 버리고 동시에 적당한 응답 패킷을 전달                        	|
+| RETURN 	| 호출 사슬 내에서 패킷 처리를 계속 진행                              	|

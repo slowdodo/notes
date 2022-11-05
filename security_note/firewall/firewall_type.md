@@ -66,8 +66,13 @@
 5. 해커가 뚫기 너무 어렵지도 쉽지도 않게 시스템을 만들어야한다.
 6. 시스템에 접속하는 모든 사람에 대한 정보를 관리자에게 알려야 한다.
 
-## NGFW[New Generation Firewall](차세대 방화벽)
- 
+## NGFW[Next Generation Firewall](차세대 방화벽)
+
+애플리케이션을 기반으로 패킷을 필터링하고 IP 헤더 뿐만아니라 패킷에 포함된 데이터를 검사하는 기능을 보유함
+
+과거의 방화벽은 L4수준까지만 작동했지만 이 기술은 L7까지 작동하게 만든다.
+
+최근에는 L4~L7까지의 공격이 증가하기떄문에 이러한 기능은 중요하다.
  
 # SIEM(Security Information and Evenet Management) 로그 시각화 장비
 
@@ -76,5 +81,19 @@
 로그를 시각화, 필터를 효과적으로 수행하게 도와주고 실시간으로 관제역할을 해준다.
 
 * 대포적인 장비
-    * kibana <- 유로지만 제한이 splunk보다 덜함
-    * splunk <- 유로에 제한이 많음
+    * kibana <- 유로지만 제한이 splunk보다 덜함, Elacstic을 활용하여 ELK라는 로그분석 솔루션을 제공한다.
+    * splunk <- 유로에 제한이 많은데 무료는 하루에 500MB까지만 로그를 분석 가능
+
+# SOAR(Security Orchestration Automation and Response)
+
+다양한 보안 위협에 대한 대응 프로세스를 자동화하여 낮은 수준의 보안 이벤트는 자동으로 처리해주고
+
+보안사고가 발생하면 표준화된 업무 프로세스에 따라 담당자가 대응할수 있게 해주는 차세대 솔루션을 말한다.
+
+위 용어는 Gartner에서 만든 용어이며 아래 3가지 기능을 제공한다.
+
+## SOA (Security Orchestration and Automation) 보안 오케스트레이션 및 자동화
+
+## SIRP(Security Incident Response Plaform) 보안 대응 플래폼
+
+## TIP(Threat Intelligence Platform) 위협 인텔리전스 플래폼

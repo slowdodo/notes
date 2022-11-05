@@ -1,0 +1,102 @@
+로그 이름:         Security
+원본:            Microsoft-Windows-Security-Auditing
+날짜:            2022-10-29 오후 6:59:08
+이벤트 ID:        4625
+작업 범주:         Logon
+수준:            정보
+키워드:           감사 실패
+사용자:           해당 없음
+컴퓨터:           DESKTOP-3R4QLRE
+설명:
+계정을 로그온하지 못했습니다.
+
+주체:
+	보안 ID:		SYSTEM
+	계정 이름:		DESKTOP-3R4QLRE$
+	계정 도메인:		WORKGROUP
+	로그온 ID:		0x3E7
+
+로그온 유형:			2
+
+로그온을 실패한 계정:
+	보안 ID:		NULL SID
+	계정 이름:		-
+	계정 도메인:		-
+
+오류 정보:
+	오류 이유:		로그온하는 동안 오류가 발생했습니다.
+	상태:			0xC000006D
+	하위 상태:		0xC0000380
+
+프로세스 정보:
+	호출자 프로세스 ID:	0x83c
+	호출자 프로세스 이름:	C:\Windows\System32\svchost.exe
+
+네트워크 정보:
+	워크스테이션 이름:	-
+	원본 네트워크 주소:	127.0.0.1
+	원본 포트:		0
+
+인증 세부 정보:
+	로그온 프로세스:		User32 
+	인증 패키지:	Negotiate
+	전송된 서비스:	-
+	패키지 이름(NTLM 전용):	-
+	키 길이:		0
+
+이 이벤트는 로그온 요청이 실패할 때 액세스하려고 했던 컴퓨터에 생성됩니다.
+
+주체 필드는 로그온을 요청한 로컬 시스템의 계정을 나타냅니다. 이것은 주로 서버 서비스와 같은 서비스 또는 Winlogon.exe나 Services.exe와 같은 로컬 프로세스입니다.
+
+로그온 유형 필드는 요청한 로그온의 유형을 나타냅니다. 가장 일반적인 유형은 2(대화식)와 3(네트워크)입니다.
+
+프로세스 정보 필드는 시스템에서 로그온을 요청한 계정과 프로세스를 나타냅니다.
+
+네트워크 정보 필드는 원격 로그온 요청이 시작된 위치를 나타냅니다. 워크스테이션 이름은 항상 사용할 수 있는 것은 아니며 어떤 경우에는 비워 둘 수도 있습니다.
+
+인증 정보 필드는 이 특정 로그온 요청에 대한 자세한 정보를 제공합니다.
+	 - 전송된 서비스는 이 로그온 요청과 관련된 중간 서비스를 나타냅니다.
+	 - 패키지 이름은 NTLM 프로토콜 간에 사용된 하위 프로토콜을 나타냅니다.
+	 - 키 길이는 생성된 세션 키의 길이를 나타냅니다. 이 값은 요청된 세션 키가 없으면 0이 됩니다.
+이벤트 Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8010000000000000</Keywords>
+    <TimeCreated SystemTime="2022-10-29T09:59:08.9806341Z" />
+    <EventRecordID>193042</EventRecordID>
+    <Correlation ActivityID="{38b0b3ff-eb24-0006-29b4-b03824ebd801}" />
+    <Execution ProcessID="1224" ThreadID="13420" />
+    <Channel>Security</Channel>
+    <Computer>DESKTOP-3R4QLRE</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">DESKTOP-3R4QLRE$</Data>
+    <Data Name="SubjectDomainName">WORKGROUP</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-0-0</Data>
+    <Data Name="TargetUserName">-</Data>
+    <Data Name="TargetDomainName">-</Data>
+    <Data Name="Status">0xc000006d</Data>
+    <Data Name="FailureReason">%%2304</Data>
+    <Data Name="SubStatus">0xc0000380</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32 </Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">-</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">0</Data>
+    <Data Name="ProcessId">0x83c</Data>
+    <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="IpAddress">127.0.0.1</Data>
+    <Data Name="IpPort">0</Data>
+  </EventData>
+</Event>

@@ -1,0 +1,117 @@
+로그 이름:         Security
+원본:            Microsoft-Windows-Security-Auditing
+날짜:            2022-11-05 오전 1:12:24
+이벤트 ID:        4624
+작업 범주:         Logon
+수준:            정보
+키워드:           감사 성공
+사용자:           해당 없음
+컴퓨터:           DESKTOP-3R4QLRE
+설명:
+계정이 성공적으로 로그온되었습니다.
+
+주체:
+	보안 ID:		SYSTEM
+	계정 이름:		DESKTOP-3R4QLRE$
+	계정 도메인:		WORKGROUP
+	로그온 ID:		0x3E7
+
+로그온 정보:
+	로그온 유형:		5
+	제한된 관리 모드:	-
+	가상 계정:		아니요
+	상승된 토큰:		예
+
+가장 수준:		가장
+
+새 로그온:
+	보안 ID:		SYSTEM
+	계정 이름:		SYSTEM
+	계정 도메인:		NT AUTHORITY
+	로그온 ID:		0x3E7
+	연결된 로그온 ID:		0x0
+	네트워크 계정 이름:	-
+	네트워크 계정 도메인:	-
+	로그온 GUID:		{00000000-0000-0000-0000-000000000000}
+
+프로세스 정보:
+	프로세스 ID:		0x47c
+	프로세스 이름:		C:\Windows\System32\services.exe
+
+네트워크 정보:
+	워크스테이션 이름:	-
+	원본 네트워크 주소:	-
+	원본 포트:		-
+
+인증 세부 정보:
+	로그온 프로세스:		Advapi  
+	인증 패키지:	Negotiate
+	전송된 서비스:	-
+	패키지 이름(NTLM 전용):	-
+	키 길이:		0
+
+이 이벤트는 로그온 세션이 만들어질 때 액세스했던 컴퓨터에 생성됩니다.
+
+주체 필드는 로그온을 요청한 로컬 시스템의 계정을 나타냅니다. 이것은 주로 서버 서비스와 같은 서비스 또는 Winlogon.exe나 Services.exe와 같은 로컬 프로세스입니다.
+
+로그온 유형 필드는 발생한 로그온의 종류를 나타냅니다. 가장 일반적인 유형은 2(대화형)와 3(네트워크)입니다.
+
+새 로그온 필드는 새 로그온을 만든 계정, 즉 로그온된 계정을 나타냅니다.
+
+네트워크 필드는 원격 로그온 요청이 시작된 위치를 나타냅니다. 워크스테이션 이름은 항상 사용할 수 있는 것은 아니며 어떤 경우에는 비워 둘 수 있습니다.
+
+가장 수준 필드는 로그온 세션의 프로세스에서 가장할 수 있는 범위를 나타냅니다.
+
+인증 정보 필드는 이 특정 로그온 요청에 대한 자세한 정보를 제공합니다.
+	- 로그온 GUID는 이 이벤트를 KDC 이벤트와 연관시키는 데 사용할 수 있는 고유 식별자입니다.
+	 - 전송된 서비스는 이 로그온 요청과 관련된 중간 서비스를 나타냅니다.
+	 - 패키지 이름은 NTLM 프로토콜 간에 사용된 하위 프로토콜을 나타냅니다.
+	 - 키 길이는 생성된 세션 키의 길이를 나타냅니다. 이 값은 요청된 세션 키가 없는 경우 0이 됩니다.
+이벤트 Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>2</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2022-11-04T16:12:24.2433597Z" />
+    <EventRecordID>209386</EventRecordID>
+    <Correlation ActivityID="{7a5dc8c4-ef7d-0006-ecc8-5d7a7defd801}" />
+    <Execution ProcessID="1156" ThreadID="27440" />
+    <Channel>Security</Channel>
+    <Computer>DESKTOP-3R4QLRE</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">DESKTOP-3R4QLRE$</Data>
+    <Data Name="SubjectDomainName">WORKGROUP</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-18</Data>
+    <Data Name="TargetUserName">SYSTEM</Data>
+    <Data Name="TargetDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetLogonId">0x3e7</Data>
+    <Data Name="LogonType">5</Data>
+    <Data Name="LogonProcessName">Advapi  </Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">-</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">0</Data>
+    <Data Name="ProcessId">0x47c</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">-</Data>
+    <Data Name="IpPort">-</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1842</Data>
+  </EventData>
+</Event>

@@ -61,3 +61,56 @@ Snort.cond
 | --- | --- |
 | -> | 송신지에서 수신지로 향함을 의미함 |
 | <> | 송신지에서 수신지의 오가는 패킷을 의미함 |
+
+# option
+
+## content
+
+| 종류 | 내용 |
+| --- | --- |
+| content | 트래픽중 특정한 내용을 잡아서 action을 취할수 있게 해주는 옵션 |
+| offset | 페이지의 시작을 알리는 옵션|
+| depth | 페이지의 끝을 알리는 옵션|
+| http_header | content에서 http_header 옵션으로 검색내용을 제한하라|
+| http_client_body | content에서 http_client_header 옵션으로 웹 요청(POST) 부분을 제한| 
+| http_uri| 패킷 검사 범위를 URI로 제한|
+| nocase | 대소문자를 구분하지 않음 |
+
+URI: URL과 URN을 포함한 하나의 집합 즉 `웹 서비스 페이지의 주소 + 쿼리를 포함한 주소`
+
+![1](https://velog.velcdn.com/images%2Fsjho0428%2Fpost%2F33f79901-f5a2-4a4e-a490-3a4cb24f47a1%2F%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png)
+
+## other option
+
+| 종류 | 내용 |
+| --- | --- |
+| refernce | 어떤 내용을 참조했냐 나타내는 구문|
+| fast_pattern | 
+
+## classtype
+
+| 종류 | 내용 |
+| --- | --- |
+|classtype| 탐지된 룰이 어느 타입에 속하는지 의미함|
+| sid | Signature ID|
+| rev | 룰의 버전을 나타냄 sid가 같은 룰이 존재할경우 snort에서 자동으로 rev가 높은것을 선택 <br> 이렇게 하는 이유는 룰이 자동으로 추가되는데 기존 룰을 삭제하거나 <br>새로운 룰에 sid를 다르게 매기기엔 어려운 상황이 많아서 그렇다.|
+|metadata| 룰을 만든 날짜와 수정한 날짜|
+
+## flow
+
+| 종류 | 내용 |
+| --- | --- |
+| flow | 통신 흐름에 대한 옵션|
+
+ex) flow:established,to_client;
+
+실제 tcp 3way handshaking이 성공할 시에 어떤것을 하라는 것을 지정하고싶을떄
+
+
+
+### sid
+0 ~ 1000000: SourceFire VRT에서 받아오는 시그니처에 할당된 SID 
+
+2000000 ~ 2999999: Emerging Threats에서 받아오는 시그니처에 할당된 sid값
+
+3000000 ~: 원하는 대로 사용 가능한 영역

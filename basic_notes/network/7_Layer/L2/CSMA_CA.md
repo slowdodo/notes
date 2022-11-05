@@ -1,0 +1,1 @@
+# CSMA/CD(Carrier Sense Multiple Access with Collision Detection)<br> 반송파 감지 다중 접속 및 충돌 회피

@@ -4,12 +4,14 @@
 
 # hypervisor setting 
 
-만약 wsl2를 쓸꺼면 
+윈도우는 하이퍼바이저를 사용할꺼냐, 아니냐로 양자택일 해야된다.
+
+만약 `wsl2` 를 쓸꺼면 
 ```powershell
 bcdedit /set hypervisorlaunchtype auto
 ```
 
-vmware를 사용할꺼면 
+`vmware`를 사용할꺼면 
 ```powershell
 bcdedit /set hypervisorlaunchtype off
 ```
