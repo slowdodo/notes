@@ -1,6 +1,6 @@
 # python base gui debugger site
 
-![python_gui_debugger](https://pythontutor.com/)
+[python_gui_debugger](https://pythontutor.com/)
 
 # fake email
 
@@ -19,3 +19,7 @@ docker pull dbstjdghks25/kali_pullpackage:1.0
 # markdown table web 변환 사이트
 
 [markdown_talbe](https://www.tablesgenerator.com/markdown_tables)
+
+# useful command
+
+[command](https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets)
