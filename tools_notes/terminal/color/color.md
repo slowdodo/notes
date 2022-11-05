@@ -1,9 +1,11 @@
-# 루트 컬러가 올 화이트일때 바꾸는법
+# 루트 컬러가 올 화이트일때 바꾸기
 
 1. /root/.bashrc에 들어감
 
 2. 모든 내용을 지움
 3.  아래 코드를 복사함
+
+아래에 있는 소스코드는 리눅스 루트 터미널 색깔임
 
 ``` bash
 # ~/.bashrc: executed by bash(1) for non-login shells.

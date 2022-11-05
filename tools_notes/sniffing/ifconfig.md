@@ -6,6 +6,6 @@
 
 # Linux 옵션
 
-    ifconfig [device] [ip_address] [netmask mask] [broadcast broadcast_ip] [up|down]
+ifconfig [device] [ip_address] [netmask mask] [broadcast broadcast_ip] [up|down]
 
 # Window 옵션

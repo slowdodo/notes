@@ -13,8 +13,11 @@ find . -executable -type f >> excutable_file
 find . -iname hello
 ```
 
+파일 크기가 0인것을 찾기
+``` bash
+find . -size 0 
 
-
+```
 
 * empty : file의 크기가 0인 것을 찾기
 * typec : 확장자가 c인 파일 찾기
