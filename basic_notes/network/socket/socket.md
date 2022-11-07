@@ -22,3 +22,7 @@
 윈도우에서는 파일 디스크립터를 `핸들`이라 표현한다.
 
 파일 핸들, 소캣 핸들을 따로 구분한다. 따라서 리눅스처럼 완전히 동일하게 취급받진 않는다.
+
+# 소켓 전송과정
+
+![socket_process](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FblaHMW%2FbtqP10WPeJ6%2FzaY17OP44mj0BdOZdBTbXk%2Fimg.png)
