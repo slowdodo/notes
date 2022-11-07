@@ -1,7 +1,6 @@
 # CSMA/CD(Carrier Sense Multiple Access with Collision Detection)<br> 반송파 감지 다중 접속 및 충돌 탐지
 
 * 이더넷에 연결된 여러 컴퓨터들이 하나의 전송 매체를 공유할 수 있도록 해주는 기술
-* 호스트가 채널의 상태를 감지하여 충돌을 회피하는 네트워킹
 
 ### 특징
   * 충돌에 따른 해결책 (이더넷 )
