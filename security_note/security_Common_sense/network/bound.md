@@ -1,4 +1,7 @@
 ![In/Out_Bound](https://fwbuilder.sourceforge.net/4.0/docs/users_guide5/firewall_policies/images/directions.png)
+
+# In-Bound
+
 * 인바운드(Inbound)
     - 내부를 향함(IP, Protocal,Port,Packet 등)
     - 서버 내부로 들어오는 것(IP, Protocal,Port,Packet 등)
@@ -6,7 +9,6 @@
     - 클라이언트 -> 서버
     - 클라이언트가 업로드할 때
 
-# In-Bound
 * 인바운드 규칙
     - Windows 방화벽 기본 설정 : 모든 접속 차단
     - 자신의 컴퓨터로 들어오기 시작하는 네트워크 데이터
