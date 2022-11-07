@@ -1,3 +1,4 @@
+![In/Out_Bound](https://fwbuilder.sourceforge.net/4.0/docs/users_guide5/firewall_policies/images/directions.png)
 * 인바운드(Inbound)
     - 내부를 향함(IP, Protocal,Port,Packet 등)
     - 서버 내부로 들어오는 것(IP, Protocal,Port,Packet 등)
