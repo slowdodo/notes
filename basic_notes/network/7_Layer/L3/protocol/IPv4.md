@@ -1,3 +1,6 @@
+# IPv4 Header
+![IPv4](https://www.gatevidyalay.com/wp-content/uploads/2018/09/IPv4-Header-1.png)
+
 # IPv4(Internet Protocol version 4 )
 Pv4주소는 전화번호와 같이 국내에서 표준을 정하고 정책을 수립하여 이용자에게 무한히 할당할 수 있는 자원이 아니라 전 세계적으로관리되는 유한한 자원입니다(약 43억개).
 <br/>일부는 특수한 목적으로 예약되었으며, 주소 규정에 의하여 사용이 제한적이기 때문에 IP주소할당 정책에 따라 부여하여 사용합니다.
