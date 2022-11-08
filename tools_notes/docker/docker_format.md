@@ -1,4 +1,4 @@
-# docker format option
+# docker table format option
 
 | Placeholder 	| Description                                                                                   	|
 |-------------	|-----------------------------------------------------------------------------------------------	|
@@ -20,5 +20,24 @@
 # 예시
 
 ``` bash
-docker ps --format "table {{.ID} \t {{.Names}\{{.Port}}"
+docker ps -a --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}"
 ``` 
+
+``` bash
+docker inspect (images) --format "{{json .}}"
+```
+
+# other option
+
+
+| Placeholder 	| Description                                                                                   	|
+|-------------	|-----------------------------------------------------------------------------------------------	|
+| Join          | join concatenates a list of strings to create a single string. It puts a separator between each element in the list.|
+| table         | table specifies which fields you want to see its output.|
+| json          | json encodes an element as a json string.|
+| lower         | lower transforms a string into its lowercase representation |
+| split         |  split slices a string into a list of strings separated by a separator.|
+| title         | title capitalizes the first character of a string.|
+| upper         | upper transforms a string into its uppercase representation.|
+| println       | println prints each value on a new line.|
+| Hint          | To find out what data can be printed, show all content as json|

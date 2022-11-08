@@ -1,4 +1,4 @@
-# python base gui debugger site
+# gui debugger site
 
 [python_gui_debugger](https://pythontutor.com/)
 
@@ -9,12 +9,6 @@
 # old vulner data site
 
 [old_vulner](https://samate.nist.gov/SARD/test-suites)
-
-# kali linux pull package 도커 이미지(4G)
-도커에서 권장하는 스테이징을 하거나 그런규격은 따르지 않아서 고용량임
-``` bash
-docker pull dbstjdghks25/kali_pullpackage:1.0
-```
 
 # markdown table web 변환 사이트
 
@@ -37,3 +31,7 @@ docker pull dbstjdghks25/kali_pullpackage:1.0
 [wireshark.org](https://wiki.wireshark.org/SampleCaptures)
 
 [netresec](http://www.netresec.com/?page=PcapFiles)
+
+# network guid
+
+[network_subnet](https://www.comparitech.com/net-admin/subnetting-guide/)
