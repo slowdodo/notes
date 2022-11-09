@@ -32,6 +32,7 @@
 
 [netresec](http://www.netresec.com/?page=PcapFiles)
 
+[malware_traffic packet](https://www.malware-traffic-analysis.net/)
 # network guid
 
 [network_subnet](https://www.comparitech.com/net-admin/subnetting-guide/)
