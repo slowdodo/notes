@@ -32,6 +32,10 @@
 
 [netresec](http://www.netresec.com/?page=PcapFiles)
 
+# malware analysis
+
+[malware-traffic-analysis](http://malware-traffic-analysis.net)
+
 [malware_traffic packet](https://www.malware-traffic-analysis.net/)
 # network guid
 
