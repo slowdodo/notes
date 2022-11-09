@@ -1,4 +1,3 @@
-[]
 802.1~802.X  종류정리
 
 CAT1~5 정리
@@ -30,3 +29,10 @@ SNTP
 
 UDP/TCP 같이씀
 DNS SNMP
+
+비접속형(Connectionless) 
+	전달되는 데이터그램에 대해 상태 정보 유지하지 않음
+	Best-Effort 서비스
+
+IPv6 Flow Lable
+	비슷한 기능을 하는 ip구조를 가진것들의 연산을 더 빠르게 처리하기위해 만듬
