@@ -4,13 +4,15 @@
     * 이미지들이 서로 종속적이면 빌드속도가 향상되지않는다
 * dockerhub의 여러 이미지를 필요에따라 사용이 가능하며, 이미지의 용량까지 줄일수 있다.
 
-# single-stage
+# Example
+
+## single-stage
 
 ```bash
 docker build -t single:test1 -f Single_Stage_Dockerfile . 
 ```
 
-# multi-stage
+## multi-stage
 ```bash
 docker build -t multi:test .
 docker run -p 8080:8080 multi:test
