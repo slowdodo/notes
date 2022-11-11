@@ -26,7 +26,7 @@ sudo groupadd docker
 
 그룹 추가
 ``` bash
-sudo usrmod -aG docker $USER
+sudo usermod -aG docker $USER
 ```
 
 실 적용
