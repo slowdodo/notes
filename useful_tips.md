@@ -6,9 +6,11 @@
 
 [fake_email](https://emkei.cz/)
 
-# old vulner data site
+# vulner data site
 
 [old_vulner](https://samate.nist.gov/SARD/test-suites)
+[Exploit DB](https://exploit-db.com)
+[
 
 # markdown table web 변환 사이트
 
