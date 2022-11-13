@@ -1,4 +1,3 @@
-
 #Login as root
 sudo su
 
