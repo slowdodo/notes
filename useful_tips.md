@@ -16,7 +16,7 @@
 
 [markdown_talbe](https://www.tablesgenerator.com/markdown_tables)
 
-# useful command
+# useful hacking command
 
 [command](https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets)
 
