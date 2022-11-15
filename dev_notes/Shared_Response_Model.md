@@ -1,9 +1,3 @@
-# Onpremiss
-
-### 
-
-# Serverless
-
 ### IaaS(Infra as a Service)
 
 ### PaaS(Platform as a Service)

@@ -13,3 +13,9 @@ tail -n 1 /var/log/auth.log
 ``` bash
 tail -n 1 -f /var/log/auth.log
 ```
+
+# tail을 활용한 로그 모니터링 
+
+``` bash
+tail -f /var/log/auth.log | grep -e "invalid"
+```
