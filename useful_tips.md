@@ -1,3 +1,6 @@
+# 추가작성할것들
+[security basic]https://teacheryoon.tistory.com/29?category=929626
+
 # gui debugger site
 
 [python_gui_debugger](https://pythontutor.com/)
