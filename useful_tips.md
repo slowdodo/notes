@@ -43,3 +43,7 @@
 # network guid
 
 [network_subnet](https://www.comparitech.com/net-admin/subnetting-guide/)
+
+# window AD cheetsheet
+
+[window AD cheetsheet](https://tajdini.net/blog/penetration/active-directory-penetration-mind-map/)
