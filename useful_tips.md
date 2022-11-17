@@ -1,6 +1,8 @@
 # 추가작성할것들
-[security basic]https://teacheryoon.tistory.com/29?category=929626
+[security basic](https://teacheryoon.tistory.com/29?category=929626)
 
+# OWASP TOP 10
+[OWASP_TOP10](https://owasp.org/www-project-top-ten/)
 # gui debugger site
 
 [python_gui_debugger](https://pythontutor.com/)
