@@ -58,9 +58,13 @@ netstat -an
 
 # 사용 예시
 
-```cmd
+``` cmd
 netstat -ano | findstr 80
-```
+``` 
+
+``` bash
+netstat -nlpt
+``
 
 # 여담
 
