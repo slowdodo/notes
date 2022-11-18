@@ -1,5 +1,3 @@
-노트
-
 # 추가작성할것들
 [security basic](https://teacheryoon.tistory.com/29?category=929626)
 
