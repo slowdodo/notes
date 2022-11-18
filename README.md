@@ -34,3 +34,4 @@
 # KISA
 
 [KISA](https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/resources/rpki.jsp)
+[주요정보통신기반시설_기술적_취약점분석보고서.pdf](https://www.krcert.or.kr/data/guideView.do?bulletin_writing_sequence=35988)
