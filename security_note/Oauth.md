@@ -2,7 +2,7 @@
 
 다른 웹사이트 상의 자신의 정보에 대해 웹, 앱의 접근 권한을 부여할수있는 방법으로 
 
-간단하게 구글, github, facebook같은 계정으로 다른 웹사이트의 회원가입이 가능케 하는 기술이라 생각하면 된다.
+간단하게 구글, github, facebook같은 계정으로 다른 웹사이트의 회원가입이 가능하게 하는 기술이라 생각하면 된다.
 
 # Oauth 용어
 * 사용자(user): 서비스 제공자와 소비자를 사용하는 계정을 가지고 있는 개인
@@ -22,8 +22,5 @@
 * 서비스제공자가 접근토큰을 발급한다.
 * 발급된 접근토큰을 이용하여 소비자에서 사용자 정보에 접근한다.
 
-출처: [wikipedia.org](https://ko.wikipedia.org/wiki/OAuth)
-      [Oauth2/naver blog](https://blog.naver.com/mds_datasecurity/222182943542)
-
-# 수정
-
+출처: [wikipedia.org](https://ko.wikipedia.org/wiki/OAuth)  
+[Oauth2/naver blog](https://blog.naver.com/mds_datasecurity/222182943542)
