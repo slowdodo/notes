@@ -58,6 +58,9 @@
 # Mornitoring Port = SPAN(Switch Port Analyzer)
 ![SPAN](https://www.garlandtechnology.com/hs-fs/hubfs/Current/Diagrams/Diagrams%202020/TAP-v-SPAN-Diagram-SPAN.png?width=599&height=220&name=TAP-v-SPAN-Diagram-SPAN.png)
 
+SPAN은 네트워크의 상황에따라 가용성이 침해되기에 법적 증거로는 로그를 수집하는것은 적합한 방법이 아니다. 따라서 고가의 장비이며 설치가 까다로운 TAP으로 로그를 수집해야한다.  
+하지만 그렇다고 TAP을 사용해서는 효과적인 모니터링이 어려운 경우가 있기에 (비용문제, 시간문제 등으로 NAT, Bridge의 모니터링이 어려운 케이스) 목적에 맞게 SPAN도 활용하는것이 좋은 방법이다.
+
 * 스위치에서 제공해주는 포트로 스위치를 통과하는 모든 패킷의 내용을 복재해서 전달하는 포트를 말한다.
 * 네트워크 사용량, 응답 시간 등 장비 성능을 관리할 목적으로 사용
 * 공격자가 물리적으로 해당 스위치 장비에 접근할 수 잇다면 모니터링 포트를 자신의 PC와 연결하여 스니핑이 가능
