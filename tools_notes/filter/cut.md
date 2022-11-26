@@ -34,6 +34,10 @@ date | cut -d " " -f1-5
 date | cut -d: -f2
 ```
 
-```
+```bash
 cat /var/log/dpkg.log | cut -d " " -f1,3,4
+```
+
+``` bash
+cat /etc/passwd | cut -d" -f1,7
 ```

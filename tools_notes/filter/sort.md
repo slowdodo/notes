@@ -20,6 +20,7 @@
 
 # example
 
+리눅스에서 /etc/passwd는 페스워드를 shadow에서 암호화하는지 확인하는 예제이다.
 ``` bash
-
+cat /etc/passwd | cut -d: -f2 | uniq
 ```
