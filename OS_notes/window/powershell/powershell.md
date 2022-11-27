@@ -111,3 +111,21 @@ $systeminfo = "$PSCulture, $env:COMPUTERNAME"
 ``` powershell
 $systeminfo | Out-File C:\Users\dbstj\Documents/inostudy.ps1
 ```
+
+
+``` powershell
+Get-Process | Select-Object @{ Name = 'ProcessID'; eXPRESSION = 'ID'}
+```
+
+> 프로세스 확인 명령어   
+``` powershell
+Get-Process | Select-Object -Property @(
+    'Name'
+    @{Name = 'ProcessId'; Expression = 'Id'}
+    @{Name = 'fileOwner'; Expression = { (Get-Acl $_.Path).Owner }}
+)
+```
+
+``` powershell
+Get-Aliash dir
+```

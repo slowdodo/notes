@@ -5,6 +5,10 @@
 ``` bash
 iptables -nL
 ```
+이하 동문
+``` bash
+view /etc/sysconfig/iptables
+```
 
 Rule의 번호값 보기
 ``` bash
