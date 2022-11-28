@@ -24,7 +24,7 @@ GET과 달리 전송해야될 데이터를 HTTP 메세지의 `Body에 담아`서
 * Post 요청은 idempotent하지 않습니다.
 
 # Get과 Post의 차이점
-|  	| Get 	| Post 	|
+|  	    | Get 	| Post 	|
 |:---:	|:---:	|---	|
 | 캐시 	|  O️ 	| X 	|
 | 브라우저 기록 	|  O️ 	| X 	|

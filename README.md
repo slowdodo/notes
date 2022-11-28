@@ -1,6 +1,8 @@
 # 추가작성할것들
 [security basic](https://teacheryoon.tistory.com/29?category=929626)  
-[iptables](https://sata.kr/category/%EB%B3%B4%EC%95%88%20Story/IPTables?page=1)
+[iptables](https://sata.kr/category/%EB%B3%B4%EC%95%88%20Story/IPTables?page=1)  
+[anti-ddos](https://javapipe.com/blog/iptables-ddos-protection/)  
+[anti-ddos](https://bookofzeus.com/harden-ubuntu/hardening/protect-ddos-attacks/)  
 
 # Mitre Attacck Framework
 [Mitre attack framework](https://attack.mitre.org/)
