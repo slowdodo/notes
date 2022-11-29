@@ -10,7 +10,7 @@
 [OWASP_TOP10](https://owasp.org/www-project-top-ten/)
 # gui debugger site
 
-[python_gui_debugger](https://pythontutor.com/)
+[python_gui_debugger](https://pythontutor.com/)  
 
 # fake email
 
