@@ -27,4 +27,4 @@ Error_log
 | %X              	| 연결 상태                                                        	|
 | % {Header}e 	    | 환경 변수 헤더의 내용                                                 	
 | %{Referer}i      	| 요청된 URL이 참조되거나 링크된 URL                                  |
-| %{format}t        	| 포맷된 시간                                                      	|
+| %{format}t        | 포맷된 시간                                                      	|
