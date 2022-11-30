@@ -1,0 +1,3 @@
+``` bash
+service iptables save
+```
