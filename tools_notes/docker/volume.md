@@ -13,12 +13,13 @@ docker volume ls
 ``` bash
 docker volume inspect <name>
 ```
-안쓰는 볼륨 지우기
+
+안쓰는 볼륨 지우기  
 ``` bash
 docker volume prune
 ```
 
-위 명령어와 아래 예시를 통하여 도커 볼륨의 개념을 익혀보자
+위 명령어와 아래 예시를 통하여 도커 볼륨의 개념을 익혀보자  
 ``` bash
 docker volume create bwapp && \
 docker run -d --name bwapp -p80:80 -v bwapp:/var/log/ raesene/bwapp:latest && \

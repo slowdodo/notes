@@ -40,15 +40,15 @@
 # 조건 필터 연산자
 
 | Function 	| Description 	|
-|---	|---	|
+|----------	|---	|
 | upper 	| Converts a string field to uppercase. 	|
 | lower 	| Converts a string field to lowercase. 	|
-| len 	| Returns the byte length of a string or bytes field. 	|
+| len 	    | Returns the byte length of a string or bytes field. 	|
 | count 	| Returns the number of field occurrences in a frame. 	|
 | string 	| Converts a non-string field to a string. 	|
-| max 	| Return the maximum value for the arguments. 	|
-| min 	| Return the minimum value for the arguments. 	|
-| abs 	| Return the absolute value for the argument. 	|
+| max 	    | Return the maximum value for the arguments. 	|
+| min 	    | Return the minimum value for the arguments. 	|
+| abs 	    | Return the absolute value for the argument. 	|
 
 # 자주 사용하는 구문
 

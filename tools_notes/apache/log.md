@@ -1,4 +1,5 @@
 Host > Ident > Authuser > Date and Time > Request > Status > Bytes > Referer > User-Agent
+
 클라이언트의 호스트명 또는 주소 > 클라이언트 사용자 이름 보통 - 로 대체 > 인증이 요청된 원격 사용자 이름, 보통 - 로 대체 > 요청 시간 > 실제 요청 라인(요청 메소드 + 요청 URL + HTTP 버전) > 요청 처리 결과 > 서버에서 클라이언트로 전송된 헤더를 제외한 응답데이터 크기 > 이전 참조 URL > 클라이언트 OS 및 브라우저 버전 정보
 2. 예시
 
