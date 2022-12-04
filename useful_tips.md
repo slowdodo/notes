@@ -50,3 +50,6 @@
 # window AD cheetsheet
 
 [window AD cheetsheet](https://tajdini.net/blog/penetration/active-directory-penetration-mind-map/)
+
+# openAI chat
+[AI](https://chat.openai.com/chat)
