@@ -6,5 +6,8 @@ Tails는 Whonix처럼 강력한 익명성을 보장하는 목적의 운영체제
 bitlock같은 하드 자체를 암호화 하는 기법과는 아에 다른방식이기에 포렌식 자체도 매우 어려워집니다.  
 기본적으로 편리한 도구는 아니기에 정말로 자신의 행위가 국가에 감시를 받을만큼의 위협이 될때 사용하는것을 추천합니다만 불법으로 사용하진 마세요.  
 
-# 여담
-중국에서는 이러한 익명성을 보장하는 도구를 사용하는거 자체로도 불법으로 정했다 합니다. 안타깝다고 생각하네요.
+# Tails
+Tails is a Linux distribution focused on anonymity and privacy.  
+It is a very stable and secure Linux distribution with enhanced information security features and the ability to hide your location on the internet.  
+Tails can be booted from a USB drive or other fixed disk without installing on your computer, and it automatically deletes all contents after use, minimizing potential security threats on your computer.  
+Tails is suitable for people who prioritize information security and anonymity.  
