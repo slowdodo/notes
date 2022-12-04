@@ -15,3 +15,29 @@ get-process | select-object -property @(
 ``` powershell
 1..1024 | % {echo ((NEW-Objecr Net.Sockets.TcpClient).Connect("192.168.35.128", $_)) "Open - $_"} 2>$null
 ```
+
+``` powershell
+ Get-ChildItem | Get-FileHash -Algorithm MACTripleDES
+```
+
+``` powershell
+ Get-Process | Where-Object {$_.CPU -gt 100}
+```
+
+``` powershell
+for ($i = 1; $i -le 65535; $i++) {
+    Test-NetConnection -ComputerName 192.168.1.100 -Port $i
+}
+```
+
+``` powershell
+Invoke-WebRequest
+```
+
+``` bash
+Start-Transcript 
+```
+
+``` bash
+Stop-Transcript
+```
