@@ -33,3 +33,9 @@ DNS SNMP
 IPv6 Flow Lable
 	비슷한 기능을 하는 ip구조를 가진것들의 연산을 더 빠르게 처리하기위해 만듬
 test
+
+http 프로토콜을 사용하여 세션을 유지하는 
+세션
+쿠키
+hidden type
+url rewriting
