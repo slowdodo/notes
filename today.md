@@ -39,3 +39,5 @@ http 프로토콜을 사용하여 세션을 유지하는
 쿠키
 hidden type
 url rewriting
+
+server를 docker가 아닌 apache 그 자체를 올려서 활용하기 
