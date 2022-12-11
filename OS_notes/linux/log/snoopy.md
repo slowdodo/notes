@@ -23,3 +23,7 @@ tail -f /var/log/auth.log | grep -e "invalid"
 ``` bash
 tail -f /var/log/auth.log | cut -d " " -f1-2,7-10,12-13
 ```
+
+``` bash
+tail -f /var/log/auth.log | grep -E "root"
+```
