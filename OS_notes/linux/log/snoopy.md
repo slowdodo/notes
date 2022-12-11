@@ -19,3 +19,7 @@ tail -n 1 -f /var/log/auth.log
 ``` bash
 tail -f /var/log/auth.log | grep -e "invalid"
 ```
+
+``` bash
+tail -f /var/log/auth.log | cut -d " " -f1-2,7-10,12-13
+```
