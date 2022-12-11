@@ -53,3 +53,6 @@
 
 # openAI chat
 [AI](https://chat.openai.com/chat)
+
+# sql
+[jsonsql변환](https://sqlizer.io/?utm_source=json2sql_blog)
