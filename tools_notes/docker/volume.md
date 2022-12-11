@@ -25,3 +25,15 @@ docker volume create bwapp && \
 docker run -d --name bwapp -p80:80 -v bwapp:/var/log/ raesene/bwapp:latest && \
 docker ps -a --format "table {{.Ports}} {{.Name}}"
 ```
+
+
+# volume basic location change
+
+
+``` bash
+docker volume create -d local -o o=bind -o type=none -o device=/home/user/data my-volume
+```
+
+``` bash
+docker run --mount source=my-volume,target=/data <image-name>
+```

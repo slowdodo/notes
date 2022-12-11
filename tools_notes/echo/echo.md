@@ -18,3 +18,13 @@ echo {A..Z}
 ``` bash
 echo {1..200}
 ```
+
+# example
+
+``` bash
+echo google.com > test.txt 
+```
+
+``` bash
+nslookup `echo test.txt`
+```
