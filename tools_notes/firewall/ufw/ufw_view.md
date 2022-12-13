@@ -1,4 +1,4 @@
 
 ``` bash
-sudo ufw status
+sudo ufw status numbered
 ``
