@@ -1,7 +1,3 @@
-802.1~802.X  종류정리
-
-CAT1~5 정리
-
 USB-type-C Thunderbolt 정리
 
 Firebolt
@@ -23,7 +19,6 @@ ATM shell
 SNTP
 라우터를 위한 프로토콜
 
-UDP/TCP 같이씀
 DNS SNMP
 
 비접속형(Connectionless) 
@@ -39,5 +34,3 @@ http 프로토콜을 사용하여 세션을 유지하는
 쿠키
 hidden type
 url rewriting
-
-server를 docker가 아닌 apache 그 자체를 올려서 활용하기 
