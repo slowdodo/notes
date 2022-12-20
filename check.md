@@ -5,3 +5,8 @@
 
 [볼거](https://totori.tistory.com/489)  
 [볼거2](https://blog.alyac.co.kr/76)
+
+# 추가사항
+VeraCrypt
+Bitlock
+docker-compose
