@@ -1,0 +1,68 @@
+<mxfile host="65bd71144e">
+    <diagram id="8db2Q-60gApBgWkjVJ0n" name="페이지-1">
+        <mxGraphModel dx="751" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="280" y="180" width="200" height="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" parent="10" vertex="1">
+                    <mxGeometry x="10" y="25" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" parent="10" vertex="1">
+                    <mxGeometry x="120" y="25" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" parent="10" vertex="1">
+                    <mxGeometry x="10" y="135" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" parent="10" vertex="1">
+                    <mxGeometry x="120" y="135" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" parent="10" vertex="1">
+                    <mxGeometry x="10" y="235" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" parent="10" vertex="1">
+                    <mxGeometry x="120" y="235" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Server contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_on_premise;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" parent="10" vertex="1">
+                    <mxGeometry width="200" height="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_Wireless.svg;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="34.330000000000005" width="70" height="71.33" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="12" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="210" as="targetPoint"/>
+                        <mxPoint x="150" y="170" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="9" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="160" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
+                    <mxGeometry x="340" y="30" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="640" y="590"/>
+                            <mxPoint x="380" y="590"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" parent="1" vertex="1">
+                    <mxGeometry x="600" y="370" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="image;html=1;image=img/lib/clip_art/networking/Modem_128x128.png" vertex="1" parent="1">
+                    <mxGeometry x="600" y="130" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
