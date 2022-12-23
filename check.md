@@ -5,6 +5,7 @@
 
 [볼거](https://totori.tistory.com/489)  
 [볼거2](https://blog.alyac.co.kr/76)
+[볼거3](https://download.ahnlab.com/kr/site/brochure/Brochure_V3_Net_for_Unix_Linux_Server.pdf)
 
 # 추가사항
 VeraCrypt
