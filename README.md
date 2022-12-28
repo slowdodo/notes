@@ -32,7 +32,8 @@
 
 # 공식 사이트
 [KISA](https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/resources/rpki.jsp)  
-[주요정보통신기반시설_기술적_취약점분석보고서.pdf](https://www.krcert.or.kr/data/guideView.do?bulletin_writing_sequence=35988)
+[주요정보통신기반시설_기술적_취약점분석보고서.pdf](https://www.krcert.or.kr/data/guideView.do?bulletin_writing_sequence=35988)  
+[secure_coding](https://www.kisa.or.kr/2060204/form?postSeq=9&page=1)
 
 # network site
 [network_subnet](https://www.comparitech.com/net-admin/subnetting-guide/)
