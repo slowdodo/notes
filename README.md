@@ -6,7 +6,7 @@
 [iptables](https://sata.kr/category/%EB%B3%B4%EC%95%88%20Story/IPTables?page=1)  
 [anti-ddos](https://javapipe.com/blog/iptables-ddos-protection/)  
 [anti-ddos](https://bookofzeus.com/harden-ubuntu/hardening/protect-ddos-attacks/)  
-
+[한국 은행의 심각한 보안적 모순에 관한 글](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/)
 
 # 취약점 참고용 정리
 [OWASP_TOP10](https://owasp.org/www-project-top-ten/)  
@@ -37,3 +37,11 @@
 
 # network site
 [network_subnet](https://www.comparitech.com/net-admin/subnetting-guide/)   
+
+
+# 시간날때 봐야할 리스트(웹사이트)
+[Ahnlab_한글,워드 크랙을 이용한 악성코드 유포 사례](https://asec.ahnlab.com/ko/45153/)  
+[SK쉴더스 연간 리포트](https://www.skshieldus.com/kor/support/download/report.do)  
+[KISA 최신보고서](https://www.krcert.or.kr/data/reportList.do)  
+[전자금융감독 보고서](https://www.fsec.or.kr/bbs/241)
+[aws CDN이란](https://aws.amazon.com/ko/what-is/cdn/)
