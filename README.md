@@ -1,4 +1,4 @@
-#  블로그
+#  유용한 블로그 모음
 [security basic](https://teacheryoon.tistory.com/29?category=929626)  
 [iptables](https://sata.kr/entry/IPTables-1%EA%B3%B5%EC%A7%9C%EB%B0%A9%ED%99%94%EB%B2%BD-IPTables-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-CentOS-67)  
 [net_filter](https://pr0gr4m.github.io/linux/kernel/netfilter/)  
@@ -6,7 +6,7 @@
 [iptables](https://sata.kr/category/%EB%B3%B4%EC%95%88%20Story/IPTables?page=1)  
 [anti-ddos](https://javapipe.com/blog/iptables-ddos-protection/)  
 [anti-ddos](https://bookofzeus.com/harden-ubuntu/hardening/protect-ddos-attacks/)  
-[한국 은행의 심각한 보안적 모순에 관한 글](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/)
+[An article about the serious security paradox of Korean banks](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/)
 
 # 취약점 참고용 정리
 [OWASP_TOP10](https://owasp.org/www-project-top-ten/)  
